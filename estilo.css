@@ -1,0 +1,155 @@
+body{
+    font-family: 'Karla', sans-serif;
+    background: hsl(204, 43%, 93%);
+    max-width: 1440px;
+
+}
+h1,h2,h3,h4{
+    margin: 0;
+}
+
+.container{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    margin-top: 80px; 
+    align-items: center;
+    justify-content: center;
+
+    background: #FFF;
+    box-sizing: border-box;
+
+    
+    border-radius: 6px;
+    
+
+    box-shadow: rgba(37, 37, 37, 0.4) 0px 1px 3px -1px;
+
+    
+
+}
+
+.join{
+    background: #FFF;
+    color: hsl(203, 10%, 74%);
+
+    width: 100%;
+    height: 50%;
+
+    box-sizing: border-box;
+
+    padding: 6%;
+
+    border-radius: 6px;
+
+    
+}
+.join h2{
+    color: hsl(179, 62%, 43%);
+    margin: 0;
+    margin-bottom: 5%;
+}
+
+.join h3{
+    color: hsl(71, 73%, 54%);
+    margin: 0;
+}
+
+.secundario{
+    display: flex;
+    color: #FFF;
+
+}
+
+.subscription{
+
+    width: 50%;
+    background:hsl(179, 62%, 43%);
+
+    box-sizing: border-box;
+    padding: 5%;
+
+    border-bottom-left-radius: 6px;
+}
+.price{
+    display: flex;
+    margin-top: 20px;
+}
+
+.secundario .subscription span{
+    font-weight: 200;
+    opacity: 0.8;
+    align-self: center;
+    margin-left: 13px;
+}
+
+.secundario .subscription p{
+    margin: 8px;
+    opacity: 0.9;
+}
+
+.secundario .subscription button{
+    color: white;
+    background: hsl(71, 73%, 54%);
+
+    width: 95%;
+    height: 45px;
+    padding: 15px;
+
+    margin-left: 4%;
+    margin-top: 9%;
+    margin-right: 6%;
+
+    border:none;
+    border-radius: 6px;
+    box-shadow: rgba(2, 2, 2,0.6) 1px 1px 3px -1px;
+
+    font-weight: bold;
+}
+
+.whyUs{
+    width: 50%;
+    background: hsl(179, 60%, 50%);
+
+    padding: 15px;
+
+    box-sizing: border-box;
+    padding: 5%;
+    border-bottom-right-radius: 6px;
+}
+
+.whyUs p{
+    font-weight: 200;
+    opacity: 0.8;
+
+    margin-top: 25px;
+}
+
+
+footer{
+    margin: 0;
+}
+
+@media (min-width: 100px) and (max-width: 800px){
+    
+    .containuer{
+        margin-top:0;
+    }
+    .secundario{
+        display: block;
+        
+    }
+    .subscription{
+        border-radius: 0;
+    }
+    .whyUs, .subscription{
+        width: 100%;
+        height: 50%;
+    }
+    .whyUs{
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+
+    
+}
